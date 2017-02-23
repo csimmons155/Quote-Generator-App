@@ -1,0 +1,45 @@
+div {
+    position:relative;
+}
+
+body {
+    background-color:#461f41;
+}
+
+.quote_box {
+    background-color:#d9d9d9;
+    width:450px;
+    padding:40px 50px;
+    border-radius:3px;
+    margin: 8% auto auto auto;
+    
+}
+.quote_box > .actual_quote{
+    text-align:center;
+    width:450px;
+    height:auto;
+    clear:both;
+    padding-right:14em
+}
+.quote_box > .quote_name{
+    padding-left:17em;
+    padding-top:20px;
+    padding-bottom:20px;
+    height:auto;
+    clear:both;
+}
+
+.button_row{
+    width:450px;
+    margin:auto;
+}
+
+.button_row > #new_quote{
+    text-align:center;
+    height:50px;
+    width:auto;
+    margin-left:6em;
+    margin-right:3em;
+}
+
+
